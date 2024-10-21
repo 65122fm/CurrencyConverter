@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="all-pages">
+
+        <div class="currency-check">
+            <h2>Currency Converter</h2>
+            <p>Check live rates, set rate alerts, receive notifications and more.</p>
+        </div>
+
+        <div class="container">
+
+            <div class="currency-section">
+                <div class="currency-details">
+                    <img id="img-1" src="./image/SGD 1.png" alt="SGD Flag">
+                    <select id="firstCountryName">
+                        <option class="country-name_1" value="usd">SGD</option>
+                    </select>
+                </div>
+                <input type="text" id="first-amount" placeholder="0000" autocomplete="off">
+            </div>
+            
+            <div class="exchange-arrow">
+                    <button id="exchange-btn">
+                        <img src="./image/Group (3).png" alt="">
+                    </button>
+            </div>
+
+            <div class="currency-section">
+                <div class="currency-details">
+                    <img id="img-2" src="./image/United-states.png" alt="USA Flag">
+                    <select id="secondCountryName">
+                        <option class="country-name_2" value="sgd">USD</option>
+                    </select>
+                </div>
+                <input type="text" id="secondary-amount" placeholder="0000" autocomplete="off">
+            </div>
+        </div>    
+        <div class="exchange-rate">
+            <label>Indicative Exchange Rate</label>
+            <p id="rate"><b>1 SGD = 0.7367 USD</b></p>
+        </div>
+    </div>
+    <script src="console.js"></script>
+</body>
+</html>
